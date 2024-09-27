@@ -1,0 +1,595 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+.main{
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.page1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.page2{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.nav{
+    width: 100%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    position: fixed;
+    z-index: 99999;
+    background-color: aliceblue;
+}
+.nav > img{
+    width: 30px;
+    margin-left: 20px;
+    height: 30px;
+}
+.nav h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.925);
+}
+.nav-div{
+    display: flex;
+    position: relative;
+    width: 20%;
+    margin-left: 60px;
+    justify-content: space-around;
+}
+.nav-div h1{
+    font-weight: 200;
+    font-size: 15px;
+}
+.nav-div i{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.774);
+    margin-top: 5px;
+    margin-left: -9px;
+}
+.reimagine{
+    width: 100%;
+    height: 90%;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+.reimagine > video{
+    width: 100%;
+    object-fit: cover;
+    height: 95%;
+} 
+.re{
+    height: 40%;
+    width: 100%;
+    display: inline;  
+    white-space: nowrap;
+    position: relative;
+    top: 25%;
+    position: absolute;
+}
+.re h1{
+    font-size: 60px;
+    margin-left: 5%;
+    color: white;
+}
+.re h2{
+    font-size: 20px;
+    color: white;
+    margin-left: 5%;
+    margin-top: 10px;
+
+}
+.re i{
+    font-size: 20px;
+    position: absolute;
+    left: 14%;
+    top: 49%;
+    color: white;
+}
+.re i:hover{
+    margin: -40px 15%;
+}
+.our{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 99;
+}
+.page2 img{
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+}
+.our > h1{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    font-size: 30px;
+    font-weight: 200;
+}
+.our > span{
+    color: gray;
+    font-size: 25px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
+.our > p{
+    font-size: 15px;
+    color: black;
+    position: absolute;
+    top: 11%;
+    left: 50%;
+}
+.but{
+    background-color: rgb(190, 142, 235);
+    width: 15%;
+    position: absolute;
+    position: relative;
+    overflow: hidden;
+    top: 80%;
+    height: 6%;
+    left: 42%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   
+}
+.sut{
+    background-color: rgb(190, 142, 235);
+    width: 15%;
+    height: 5%;
+    position: absolute !important;
+    position: relative;
+    overflow: hidden;
+    top: 75%;
+    left: 45%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   
+}
+
+
+.but:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.sut i,
+ .but i{
+    font-size: 20px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.sut h1 ,
+ .but > h1{
+    font-size: 15px;
+    font-weight: 100;
+}
+.studio{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.erthos {
+    width: 100%;
+    height: 100%;
+}
+.erthos > video{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.studio > h1{
+    font-size: 70px;
+    font-weight: 300;
+    display: inline;
+    top: 10%;
+    left: 5%;
+    position: absolute;
+    color: white;
+}
+.studio > p{
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 58%;
+    font-size: 20px;
+}
+.page4{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#0f0c29, #302b63, #24243e);
+
+}
+
+.technology{
+    width: 100%;
+    height: 66%;
+    position: relative;
+    display: flex; 
+    /* color: white; */
+    /* background: linear-gradient(#0f0c29, #302b63, #24243e); */
+    color: white;
+}
+.technology > h1{
+    font-size: 60px;
+    margin: 60px 40px;
+    font-weight: 200;
+
+}
+.technology > h2{
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 25%;
+    margin-top: 5%;
+    color: white;
+}
+.technology >span{
+    margin: 70px 40px;
+    font-size: 15px;
+}
+.technology > p{
+    font-size: 25px;
+    margin-left: -15.5%;
+    margin-top: 10%;
+    font-size: 20px;
+}
+.videos{
+    width: 100%;
+    height: 50%; 
+    display: flex; 
+    margin-top: 5%;
+    white-space: nowrap;
+    overflow-x: auto;
+    gap: 15%;   
+    /* background: linear-gradient(#0f0c29, #302b63, #24243e); */
+
+}
+.videos::-webkit-scrollbar{
+    display: none;
+}
+.videos > video{
+    width: 50%;
+    height: 100%;
+    padding: 40px 0;
+    object-fit: cover;
+
+}
+
+.page5{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: red;
+}
+.page5 img{
+    width: 95%;
+    height: 100%;
+    margin-top: 3%;
+    object-fit: cover;
+    margin-left: 2.5%;
+}
+
+.work{
+    width: 100%;
+    height: 100%;
+    color: white;
+    position: relative;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.973);
+}
+.work > h1{
+    font-size: 62px;
+    font-weight: 100; 
+    margin-left:3%;
+    margin-top: 5%;
+}
+.work > p{
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    margin-left: 50%;
+    margin-top: -4%;
+}
+.work >span{
+    color: gray;
+    margin-left: 50%;
+    top: 22%;
+    position: absolute;
+}
+.work >i{
+    color: gray;
+    font-size: 18px;
+    position: absolute;
+    top: 22%;
+    left: 60%;
+}
+.work >i:hover{
+    color: rgba(0, 128, 0, 0.562);
+     
+}
+.bioresin{
+    width: 95%;
+    height: 10%;
+    position: relative;
+}
+.bioresin h1{
+    font-weight: 100;
+    position: absolute;     
+    top: 480%;
+    left: 5%;
+}
+.bioresin span{
+    position: absolute;
+    top: 702%;
+    left: 5%;
+}
+.part{
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.part1{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.973);
+}
+.part2{
+    width: 45%;
+    height: 80%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 1%;
+    background-color: red;
+}
+.part2 > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.page3 > img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.part2 > p{
+    left: 5%;
+    top: 65%;
+    position: absolute;
+    color: white;
+}
+.part2 > span{
+    left: 5%;
+    top: 80%;
+    position: absolute;
+    color: white;
+}
+.part3 > p{
+    left: 5%;
+    top: 50%;
+    position: absolute;
+    color: white;
+}
+.part3 > span{
+    left: 5%;
+    top: 65%;
+    position: absolute;
+    color: white;
+}
+.part3{
+    width: 47.5%;
+    height: 80%;
+    overflow: hidden;
+
+    margin-top: 1%;
+}
+
+#part-button{
+    background-color: rgb(190, 142, 235);
+    width: 15%;
+    height: 6%;
+    display: flex;
+    left: 45%;
+    align-items: center;
+    position: relative;
+     margin-top: -5%;
+     gap: 10px;
+}
+#part-button:hover{
+    background-color: blueviolet;
+    color: white;
+}
+#part-button > span {
+    font-size: 20px;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+#part-button > h1{
+    font-size: 15px;
+    font-weight: 100;
+}
+ 
+ 
+.page3{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+ 
+.page6{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.page7{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #ffffff; 
+
+}
+.from{
+    width: 100%;
+    height: 20%;
+    display: flex;
+}
+.from > h1{
+    font-size: 40px;
+    margin-top: 5%;
+    margin-left: 2%;
+    font-weight: normal;
+}
+.from span{
+    font-size: 30px;
+    color: gray;
+    margin-left: 38%;
+    margin-top: 5%;
+}
+.from i{
+    font-size: 35px;
+    color: gray;
+    margin-top: 5%;
+}
+.from i:hover{
+    margin-left: 5px;
+}
+.image{
+    width: 100%;
+    height: 75%;
+    margin-top: 3%;
+    position: relative;
+    display: flex;
+    
+}
+.image > img{
+    padding: 0 5px;
+    width: 33%;
+    height: 100%;
+}
+.page8{
+    width: 100%;
+    height: 100%;
+    
+}
+.discription{
+    width: 100%;
+    height: 50%;
+    margin-top: 2%;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+.frist{
+    width: 33%;
+    padding: 0 10px;
+    margin-bottom: 10%;
+    height: 20%;
+}
+.frist h1{
+    font-size: 15px;
+    font-weight: 100;
+}
+.frist span{
+    color: gray;
+    font-size: 15px;
+    margin-left: 30%;
+}
+.frist p{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.frist h2{
+    margin-top: 5px;
+    font-weight: normal;
+    color: gray;
+    font-size: 18px;
+}
+.work-with{
+    width: 100%;
+    display: flex;
+    padding: 40px;
+    justify-content: space-between;
+    height: 50%;
+    position: relative;
+   
+}
+.with h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.with p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.with span{
+    color: gray;
+    position: absolute;
+    top: 55%;
+    
+}
+.with i{
+    color: gray;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+.with i:hover{
+    margin-left: 5px;
+}
+
+.page9{
+    width: 100%;
+    height: 50vh;
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+}
+.about{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    line-height: 2;
+}
+.list li{
+    list-style: none;
+}
+
+.list h1{
+    font-size: 20px;
+    color: gray;
+}
+.page9 > img{
+    width: 100px;
+    height: 100px;
+}
